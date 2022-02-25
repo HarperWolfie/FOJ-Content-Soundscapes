@@ -1,0 +1,184 @@
+
+//Sound scapes
+
+"MainAmbo01"
+{
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_55dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/airport_lobby_amb_loop.wav" //L4D2
+	}
+}
+
+"MainAmbo02"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_bigwarehouseamb_loop.wav" //L4D2
+	}
+}
+
+"MainAmbo03"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_urb4b_shaftwind_loop.wav" //L4D2
+	}
+}
+
+"PowerRoom_Ambiance"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_genroom_stereo_loop.wav" //L4D2
+	}
+}
+
+
+"Vent_Ambiance"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_undergroundrumbletone_loop.wav" //L4D2
+	}
+}
+
+//From Parish 2
+
+"OutsideMaster01"
+{
+   "Fadetime" "4.0"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_55dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/streetwind01_loop.wav"
+	}
+}
+
+"OutsideMaster02_Wint"
+{
+   "Fadetime" "4.0"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_45dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/Rainscapes/Rain/crucial_surfacerain_med_loop.wav"
+	}
+	"playrandom" //Thunder from outside and other stuff
+{
+	"time"		"10,50"
+	"volume"	"0.8,1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_distant01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/dist_machinegun_06.wav"
+		"wave"	"#Ambient/Random_amb_sfx/dist_pistol_02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/forest_bird01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randomwindgust01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randomwindgust03.wav"
+		"wave"	"#Ambient/Random_amb_sounds/dist_gun_05.wav"
+		"wave"	"#Ambient/Random_amb_sounds/dist_gun_02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/rand_gulls_06.wav"
+		"wave"	"#Ambient/Random_amb_sounds/rand_gulls_01.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_01.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_02.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_03.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_04.wav"
+		"wave"	"#Ambient/Animal/crow_1.wav"
+		"wave"	"#Music/Contagion/quarantine_03.wav"
+		"wave"	"#Music/Contagion/quarantine_02.wav"
+		"wave"	"#Music/Contagion/quarantine_01.wav"
+		"wave"	"#Music/Contagion/zombiechoir_01.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_02.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_04.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_05.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_06.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_07.wav"
+		"wave"	"#Music/Mob/milltowngermm1d.wav"
+		"wave"	"#Music/Mob/milltowngermx2a.wav"
+		"wave"	"#Music/Mob/milltowngermx1c.wav"
+		"wave"	"#Music/Mob/plankgermx1a.wav"
+		"wave"	"#Music/Mob/plankgermx1b.wav"
+	}
+}
+}
+
+"InsideMaster02_Wint"
+{
+   "Fadetime" "4.0"
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_55dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/Rainscapes/Rain/interior_rain_med_loop.wav"
+	}
+	"playrandom" //Thunder from outside and other stuff
+{
+	"time"		"18,45"
+	"volume"	"0.4,0.7"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_35dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_distant02.wav"
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_distant03.wav"
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_close04.wav"
+		"wave"	"#Ambient/Random_amb_sfx/wood_floor_squeak03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/rur_random_coyote02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/rur_random_coyote03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/foghorn_close.wav"
+	}
+}
+}
+

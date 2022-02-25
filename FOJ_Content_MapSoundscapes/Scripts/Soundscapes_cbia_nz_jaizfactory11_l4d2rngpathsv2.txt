@@ -1,0 +1,443 @@
+
+//Sound scapes
+
+"MainAmbo01"
+{
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_25dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/airport_lobby_amb_loop.wav" //L4D2
+	}
+	"playrandom" //Music shit
+{
+	"time"		"45,85"
+	"volume"	"0.8,1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Random_amb_sfx/dist_pistol_01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/dist_pistol_02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_12.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_11.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_01.wav"
+		"wave"	"#Ambient/Overhead/plane2.wav"
+		"wave"	"#Ambient/Overhead/plane3.wav"
+		"wave"	"#Ambient/Levels/Caves/dist_growl3.wav"
+		"wave"	"#Ambient/Levels/Caves/dist_growl1.wav"
+		"wave"	"#Ambient/Atmosphere/tone_alley.wav"
+		"wave"	"#Ambient/Atmosphere/cave_hit2.wav"
+		"wave"	"#Music/Glimpse/aglimpseofdeath_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_01.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_04.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_05.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_06.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_02.wav"
+		"wave"	"#Music/Contagion/quarantine_03.wav"
+		"wave"	"#Music/Contagion/c2rabies_10.wav"
+		"wave"	"#Music/Contagion/c1rabies_12.wav"
+	}
+}
+}
+
+
+"MainAmbo02"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_bigwarehouseamb_loop.wav" //L4D2
+	}
+	"playrandom" //Music shit
+{
+	"time"		"45,85"
+	"volume"	"0.8,1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_12.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_11.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_01.wav"
+		"wave"	"#Ambient/Overhead/plane2.wav"
+		"wave"	"#Ambient/Overhead/plane3.wav"
+		"wave"	"#Ambient/Levels/Caves/dist_growl3.wav"
+		"wave"	"#Ambient/Levels/Caves/dist_growl1.wav"
+		"wave"	"#Ambient/Atmosphere/cave_hit2.wav"
+		"wave"	"#Music/Glimpse/aglimpseofdeath_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_01.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_04.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_05.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_06.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_02.wav"
+		"wave"	"#Music/Contagion/quarantine_03.wav"
+		"wave"	"#Music/Contagion/c2rabies_10.wav"
+		"wave"	"#Music/Contagion/c1rabies_12.wav"
+		"wave"	"#Music/Contagion/c5rabies_05.wav"
+		"wave"	"#Music/Contagion/l4d2_rabies_18.wav"
+	}
+}
+}
+
+"MainAmbo03"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_urb4b_shaftwind_loop.wav" //L4D2
+	}
+}
+
+"PowerRoom_Ambiance_Off"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_big_generator_loop.wav" //L4D2
+	}
+}
+
+"PowerRoom_Ambiance_On"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_big_generator_loop.wav" //L4D2
+	}
+	"playlooping" //generator
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+		"position"	"0"
+
+		"wave"			"#Level/generator_start_loop.wav" //L4D2
+	}
+}
+
+
+"Vent_Ambiance"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_undergroundrumbletone_loop.wav" //L4D2
+	}
+		"playrandom" //Music shit
+{
+	"time"		"45,85"
+	"volume"	"0.8,1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_15.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_16.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_12.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_11.wav"
+		"wave"	"#Ambient/Random_amb_sfx/rur5b_dockedboat_sfx05.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb05.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb08.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb09.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalrattle01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalrattle02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randomwindgust02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_01.wav"
+		"wave"	"#Ambient/Overhead/plane2.wav"
+		"wave"	"#Ambient/Overhead/plane3.wav"
+		"wave"	"#Ambient/Levels/Caves/dist_growl3.wav"
+		"wave"	"#Ambient/Levels/Caves/dist_growl1.wav"
+		"wave"	"#Ambient/Atmosphere/cave_hit2.wav"
+		"wave"	"#Music/Glimpse/aglimpseofdeath_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_01.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_04.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_05.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_06.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_02.wav"
+	}
+}
+}
+
+//From Parish 2
+
+"OutsideMaster01"
+{
+   "Fadetime" "4.0"
+	"playlooping"
+	{
+		"volume"	"0.5"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_55dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/streetwind01_loop.wav"
+	}
+}
+
+"OutsideMaster02_Wint"
+{
+   "Fadetime" "4.0"
+	"playlooping"
+	{
+		"volume"	"0.4"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_45dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/Rainscapes/Rain/crucial_surfacerain_med_loop.wav"
+	}
+	"playrandom" //Thunder from outside and other stuff
+{
+	"time"		"10,50"
+	"volume"	"0.8,1"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_distant01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/dist_machinegun_06.wav"
+		"wave"	"#Ambient/Random_amb_sfx/dist_pistol_02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/forest_bird01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randomwindgust01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randomwindgust03.wav"
+		"wave"	"#Ambient/Random_amb_sounds/dist_gun_05.wav"
+		"wave"	"#Ambient/Random_amb_sounds/dist_gun_02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/rand_gulls_06.wav"
+		"wave"	"#Ambient/Random_amb_sounds/rand_gulls_01.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_01.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_02.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_03.wav"
+		"wave"	"#Ambient/Random_animals/fly_buzz_04.wav"
+		"wave"	"#Ambient/Animal/crow_1.wav"
+		"wave"	"#Music/Contagion/quarantine_03.wav"
+		"wave"	"#Music/Contagion/quarantine_02.wav"
+		"wave"	"#Music/Contagion/quarantine_01.wav"
+		"wave"	"#Music/Contagion/zombiechoir_01.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_02.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_03.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_04.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_05.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_06.wav"
+		"wave"	"#Music/ZombieChoir/zombiechoir_07.wav"
+	}
+}
+}
+
+"InsideMaster02_Wint"
+{
+   "Fadetime" "4.0"
+	"playlooping"
+	{
+		"volume"	"0.2"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_55dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/Rainscapes/Rain/interior_rain_med_loop.wav"
+	}
+	"playrandom" //Thunder from outside and other stuff
+{
+	"time"		"18,45"
+	"volume"	"0.4,0.7"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_35dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_distant02.wav"
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_distant03.wav"
+		"wave"	"#Ambient/Ambience/Rainscapes/thunder_close04.wav"
+		"wave"	"#Ambient/Random_amb_sfx/wood_floor_squeak03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/rur_random_coyote02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/rur_random_coyote03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/foghorn_close.wav"
+	}
+}
+}
+
+
+
+"Sewers_Ambo01"
+{
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"			"#Ambient/Ambience/crucial_underground_wet_loop.wav" //L4D2
+	}
+		"playrandom" //Random SFX
+{
+	"time"		"45,85"
+	"volume"	"0.4,.8"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_16.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_12.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_11.wav"
+		"wave"	"#Ambient/Random_amb_sfx/random_rhumble03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb05.wav"
+		"wave"	"#Ambient/Random_amb_sfx/pole_rattle02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb09.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalrattle01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalrattle02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randomwindgust02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_01.wav"
+//		"wave"	"#Ambient/Drones/drone_mvmnt_01.wav" //Needs to be added as non-loop
+		"wave"	"#Ambient/Atmosphere/cave_hit2.wav"
+		
+		//Jaiz Specific
+		
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboSFX_01.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboSFX_02.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboSFX_03.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboSFX_04.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboMUS_01.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboMUS_02.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboMUS_03.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/SEWER/Sewers_AmboMUS_04.wav"
+	}
+}
+}
+"CPM_Sewer"
+{
+	"playlooping"
+	{
+		"volume"	".5"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"	"#CBIA/Jaiz1Ambiance/CPMusic/Saferoom_Theme_Sewers.wav"
+	}
+		"playrandom" //Random SFX
+{
+	"time"		"15,30"
+	"volume"	"0.4,.8"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_16.wav"
+		"wave"	"#Ambient/Random_amb_sfx/mall_random_12.wav"
+		"wave"	"#Ambient/Random_amb_sfx/random_rhumble03.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb07.wav"
+		"wave"	"#Ambient/Random_amb_sfx/pole_rattle02.wav"
+		"wave"	"#Ambient/Random_amb_sfx/metalscrapeverb09.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalrattle01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/randommetalsqueak02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_02.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_07.wav"
+		"wave"	"#Ambient/Random_amb_sounds/randbridgegroan_09.wav"
+		"wave"	"#Ambient/Atmosphere/cave_hit2.wav"
+		"wave"	"#CBIA/Jaiz1Ambiance/Sewer/Sewers_AmboSFX_01.wav"
+	}
+}
+}
+
+"CPM_Bathroom"
+{
+	"playlooping"
+	{
+		"volume"	"1"
+		"pitch"		"100"
+		"soundlevel"	"SNDLVL_85dB"
+
+//		"position"	"0"
+
+		"wave"	"#CBIA/Jaiz1Ambiance/Area01_SpawnFac/Bathroom/Saferoom_Theme_Bathroom.wav"
+	}
+		"playrandom" //Random SFX
+{
+	"time"		"15,30"
+	"volume"	"0.2,.4"
+	"pitch"		"100"
+	"soundlevel"	"SNDLVL_45dB"
+
+//	"position"	"0"
+
+	"rndwave"
+	{
+		"wave"	"#Ambient/Random_amb_sfx/urban_1b-5b_randommetal_interior/random_interiormetal_01.wav"
+		"wave"	"#Ambient/Random_amb_sfx/urban_1b-5b_randommetal_interior/random_interiormetal_04.wav"
+		"wave"	"#Ambient/Random_amb_sfx/urban_1b-5b_randommetal_interior/random_interiormetal_07.wav"
+		"wave"	"#Ambient/Random_amb_sounds/dist_gun_05.wav"
+	}
+}
+}
+
+
+
+
